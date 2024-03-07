@@ -1,0 +1,20 @@
+project(TodoList)
+
+add_executable(
+    TodoList
+    BasicInfo.h
+    BasicInfo.c
+    CompleteCheck.c
+    CompleteCheck.h
+    DeleteTodoList.c
+    DeleteTodoList.h
+    EditDate.c
+    EditDate.h
+    EditImportance.c
+    EditImportance.h
+    EditTodoList.c
+    EditTodoList.h
+    InputTodoList.c
+    InputTodoList.h
+    main.c
+)
